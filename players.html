@@ -9,7 +9,7 @@
         <img src="images/logo.webp" alt="Chess Room Logo" width="80" height="80">
     </div>
   <!-- Hamburger Icon -->
-  <div class="menu-icon" id="menu-icon">
+  <div class="menu-icon" id="menu-icon" onclick="toggleMenu()">>
     <div class="bar"></div>
     <div class="bar"></div>
     <div class="bar"></div>
@@ -45,15 +45,15 @@
     <p>© 2025 The Chess Room |  By Phumzile Zulu</p>
   </footer>
     <script>
-  const hamburger = document.querySelector('.hamburger');
-  const navMenu = document.querySelector('nav ul');
-
-  hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-  });
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links ul');
+    navLinks.classList.toggle('show');
+  }
 </script>
+
 </body>
 </html>
+
 
 
 
