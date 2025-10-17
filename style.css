@@ -212,6 +212,24 @@ header {
     display: flex; /* Show when active */
   }
 
+   /* Menu links */
+  .nav-links ul li {
+    margin: 10px 0;
+    text-align: right;
+  }
+
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .nav-links ul li a:hover {
+    background-color: #333;
+  }
+
+
  .menu-icon {
     display: flex;
     flex-direction: column;
@@ -226,4 +244,5 @@ header {
     border-radius: 2px;
   }
 }
+
 
