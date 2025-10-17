@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chess Room | Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <header>
+  <div class="logo">
+        <img src="images/logo.WEBP" alt="Chess Room Logo" width="80" height="80">
+    </div>
+
+
+  
+
+  <!-- Hamburger Icon -->
+  <div class="menu-icon" id="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+
+<nav  class="nav-links" id="nav-links">
+  <ul>
+    <a href="index.html">Home</a>
+    <a href="learn.html">Learn Chess</a>
+    <a href="players.html">Famous Players</a>
+    <a href="contact.html">Contact</a>
+  </ul>
+  </nav>
+  
+</header>
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('nav ul');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
+<body class="home">
+  <header>
+    <h1>Welcome to The Chess Room</h1>
+    <p>Where every move matters</p>
+  </header>
+
+  
+
+  <main>
+    <h2>Discover the beauty of chess</h2>
+    <p>Chess is a game of strategy, patience, and intelligence. Whether you're a beginner or a pro, The Chess Room is your place to learn, explore, and enjoy the game of kings.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 The Chess Room | By Phumzile Zulu</p>
+  </footer>
+</body>
+</html>

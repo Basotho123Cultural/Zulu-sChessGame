@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chess Room | Learn Chess</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <div class="logo">
+        <img src="images/logo.WEBP" alt="Chess Room Logo" width="80" height="80">
+    </div>
+<nav class="hamburger">
+    <a href="index.html">Home</a>
+    <a href="learn.html">Learn Chess</a>
+    <a href="players.html">Famous Players</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</head>
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('nav ul');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
+<body>
+  <header>
+    <h1>Learn Chess</h1>
+    <p>Master the basics of the game</p>
+  </header>
+
+  
+
+  <main>
+    <h2>Basic Rules</h2>
+    <p>Chess is played on a board of 64 squares arranged in an 8×8 grid. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns.</p>
+
+    <h2>Objective</h2>
+    <p>The main goal is to checkmate your opponent’s king — that means the king is under attack and has no legal move to escape.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 The Chess Room | By Phumzile Zulu</p>
+  </footer>
+</body>
+</html>

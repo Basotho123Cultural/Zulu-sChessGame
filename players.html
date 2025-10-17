@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chess Room | Famous Players</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <div class="logo">
+        <img src="images/logo.WEBP" alt="Chess Room Logo" width="80" height="80">
+    </div>
+<nav class="hamburger">
+    <a href="index.html">Home</a>
+    <a href="learn.html">Learn Chess</a>
+    <a href="players.html">Famous Players</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('nav ul');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
+<body>
+  <header>
+    <h1>Famous Chess Players</h1>
+    <p>Meet the legends of the game</p>
+  </header>
+
+  
+  <main>
+    <h2>Magnus Carlsen</h2>
+    <p>Magnus Carlsen is a Norwegian chess grandmaster and former World Chess Champion known for his deep understanding and creativity in the game.</p>
+
+    <h2>Judit Polgár</h2>
+    <p>Judit Polgár is the strongest female chess player in history, famous for defeating multiple world champions.</p>
+
+    <h2>Garry Kasparov</h2>
+    <p>Garry Kasparov, a Russian grandmaster, dominated the chess world for over 20 years and is considered one of the greatest players ever.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 The Chess Room |  By Phumzile Zulu</p>
+  </footer>
+</body>
+</html>
