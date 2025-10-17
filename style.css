@@ -212,7 +212,18 @@ header {
     display: flex; /* Show when active */
   }
 
-  .menu-icon {
+ .menu-icon {
     display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  .menu-icon .bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
   }
 }
+
